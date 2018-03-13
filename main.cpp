@@ -42,12 +42,13 @@ int main()
         }
         if(list.empty() ==true )
         {
-            cout<<"you have no grocery list"<<endl;
+            cout<<"No items to buy!"<<endl;
         }
         for(ItemList = 0; ItemList< list.size(); ItemList++)
         {
 
-                cout<<list[ItemList]<<endl;
+                
+                cout<<ItemList +1<<" "<<list[ItemList]<<endl;
 
         }
 
